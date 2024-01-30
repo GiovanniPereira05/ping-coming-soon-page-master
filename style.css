@@ -49,6 +49,10 @@ input#iemail::placeholder {
     cursor: pointer;
 }
 
+#submit:hover{
+    background-color: hsl(223, 92%, 69%);
+}
+
 img#illustration{
     margin-top: 50px;
     max-height: 600px;
