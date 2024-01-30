@@ -7,6 +7,9 @@ function submit(){
 if (email.value.length === 0 || !email.value.includes('@')){
     error.innerHTML = 'Please provide a valid Email'
     email.style.borderColor = 'red'
+} else{
+    email.style.borderColor = ''
+    error.innerHTML = ''
 }
 }
 
