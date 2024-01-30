@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+
+img#logo {
+    margin-top: 50px;
+    height: 30px;
+    width: 100px;
+}
+
+h1#title {
+    font-size: 2rem;
+    margin: 40px auto 20px auto;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+input#iemail {
+    min-width: 360px;
+    min-height: 50px;
+    border-radius: 50px;
+    border-color: hsl(223, 100%, 88%);
+    text-indent: 20px;
+
+}
+
+input#iemail::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+
+#submit {
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+img#illustration{
+    margin-top: 50px;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+ion-icon{
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 50%;
+    color: hsl(223, 87%, 63%);
+    padding: 5px;
+    margin-left: 8px;
+    cursor: pointer;    
+}
+
+div.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 30px 0px;
+}
+
+div.copyright{
+    color: hsl(0, 0%, 59%);
+}
+
+p#errorMessage{
+    text-align: left;
+    text-indent: 20px;
+    color: red;
+}
+
+@media screen and (max-width: 400px) {
+
+
+    img#illustration{
+        
+        height: 230px;
+    }
+
+    
+
+    #submit{
+        margin-top: 20px;
+        min-width: 360px;
+    }
+}
